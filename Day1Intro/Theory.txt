@@ -1,61 +1,331 @@
-HTML: HyperText Mark Up Language
+HTML - HyperText Markup Language
+====================================
 
-HyperText- A text containing links that can go from One place to another place is called a HyperText
-MarkUp- < >
-<h1>
-<p>
-<img>
+1. INTRODUCTION TO HTML
+-----------------------
 
+HTML stands for HyperText Markup Language.
 
---------------------------------------------------------------------------------------------
-Why we need html
-We need html to give structure for the webpage/webapplication or website-<header><footer><aside>,.....
+HyperText:
+-----------
+HyperText is text that contains links which allow us to navigate from one
+place/document/page to another place/document/page.
 
-presentation - <h1>,<h2>,<p>
+Example:
+    <a href="https://example.com">Visit Example</a>
 
+Markup:
+-------
+Markup means using tags to define and structure the content of a webpage.
 
-------------------------------------------------------------------------------------------
-
-HTML History of html
-
-Tim Berners Lee in the year of 1991(CERN)Eureopean Organisation for Nuclear Research
-
-Versions of html:
-
-
-1.0-1991-Basic
-2.0-1995-Forms and tables
-3.2-1997-Intergating of css and js
-4.0-1995-Multimedia support
-xhtml-2000
-Html5- 2014-semanctic tags,forms(more input fileds were added),storage(local,session)
---------------------------------------------------------------------------------------------
+Examples:
+    <h1>
+    <p>
+    <img>
 
 
-BoilerPlate code
-<!DOCTYPE html>
+2. WHY DO WE NEED HTML?
+-----------------------
+
+HTML is used to provide the structure of a webpage, website, or web
+application.
+
+HTML defines different parts of a webpage using elements/tags.
+
+Examples of structural/semantic elements:
+    <header>
+    <nav>
+    <main>
+    <section>
+    <article>
+    <aside>
+    <footer>
+
+Examples of content elements:
+    <h1>
+    <h2>
+    <p>
+    <img>
+    <a>
+
+HTML mainly deals with the structure and content of a webpage.
+
+Remember:
+    HTML       -> Structure
+    CSS        -> Styling / Presentation
+    JavaScript -> Behaviour / Interactivity
+
+
+3. HISTORY OF HTML
+------------------
+
+HTML was created by Tim Berners-Lee while working at CERN.
+
+CERN stands for:
+European Organization for Nuclear Research.
+
+Important HTML milestones:
+
+    1991  -> Initial HTML
+    1995  -> HTML 2.0
+    1997  -> HTML 3.2
+    1997  -> HTML 4.0
+    2000  -> XHTML
+    2014  -> HTML5
+
+HTML 2.0:
+    - Introduced/standardized important features such as forms.
+
+HTML 3.2:
+    - Added/standardized several commonly used HTML features, including
+      tables and scripting-related capabilities.
+
+HTML 4.0:
+    - Introduced major improvements and encouraged better separation
+      between document structure and presentation.
+
+XHTML:
+    - XHTML is HTML reformulated using XML rules.
+    - It was introduced around 2000.
+
+HTML5:
+    - Introduced many modern HTML features.
+    - Added semantic elements.
+    - Improved form controls and input types.
+    - Added native multimedia support such as <audio> and <video>.
+    - Worked with modern web APIs and browser storage capabilities.
+
+
+4. HTML BOILERPLATE
+-------------------
+
+A basic HTML document structure is called the HTML boilerplate.
+
+Example:
+
+    <!DOCTYPE html>
+
+    <html>
+    <head>
+        <title>My Webpage</title>
+    </head>
+
+    <body>
+
+    </body>
+    </html>
+
+
+5. <!DOCTYPE html>
+------------------
+
+    <!DOCTYPE html>
+
+This is called the DOCTYPE declaration.
+
+It tells the browser that the document is intended to use the modern HTML
+standard (HTML5).
+
+Important:
+    <!DOCTYPE html> is a declaration, not an HTML element.
+
+
+6. <html> ELEMENT
+-----------------
+
+    <html>
+    ...
+    </html>
+
+The <html> element is the root element of an HTML document.
+
+The document is mainly divided into two important parts:
+
+    <head>
+    </head>
+
+and
+
+    <body>
+    </body>
+
+
+7. <head> ELEMENT
+-----------------
+
+The <head> element contains information ABOUT the HTML document.
+
+The content inside <head> is generally not displayed as the main visible
+content of the webpage.
+
+Common elements used inside <head>:
+
+    <title>
+    <meta>
+    <link>
+    <style>
+    <script>
+
+Example:
+
+    <head>
+        <title>My Website</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn HTML basics">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+
+8. <title> ELEMENT
+------------------
+
+The <title> element defines the title of the webpage.
+
+Example:
+
+    <title>My Website</title>
+
+The title is generally displayed in the browser tab.
+
+
+9. <meta> ELEMENT
+-----------------
+
+The <meta> element provides metadata about the HTML document.
+
+Metadata means:
+    "Data about data."
+
+Example:
+
+    <meta charset="UTF-8">
+
+This specifies the character encoding of the document.
+
+Another example:
+
+    <meta name="description" content="Learn HTML basics">
+
+The description can provide information about the webpage and may be used
+by search engines.
+
+NOTE:
+    SEO (Search Engine Optimization) is much broader than meta tags alone.
+
+
+10. <body> ELEMENT
+------------------
+
+The <body> element contains the main content of the webpage.
+
+The content inside <body> is what the user generally sees and interacts
+with on the webpage.
+
+Examples:
+
+    <h1>My Website</h1>
+    <h2>About Me</h2>
+    <p>Welcome to my website.</p>
+
+    <img src="photo.jpg" alt="My photo">
+
+    <a href="https://example.com">Visit Website</a>
+
+Other commonly used elements include:
+
+    <h1> to <h6>  -> Headings
+    <p>            -> Paragraph
+    <img>          -> Image
+    <a>            -> Hyperlink
+    <audio>        -> Audio
+    <video>        -> Video
+    <table>        -> Table
+    <form>         -> Form
+    <button>       -> Button
+
+
+11. COMPLETE BASIC STRUCTURE
+----------------------------
+
+A simple HTML document can be written as:
+
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+        <title>My First Webpage</title>
+    </head>
+
+    <body>
+        <h1>Welcome to HTML</h1>
+        <p>This is my first webpage.</p>
+    </body>
+
+    </html>
+
+
+12. QUICK REVISION
+------------------
+
+HTML
+    -> HyperText Markup Language
+
+HyperText
+    -> Text containing links that allow navigation between documents/pages.
+
+Markup
+    -> Using tags/elements to structure webpage content.
+
+HTML
+    -> Provides structure and content.
+
+CSS
+    -> Provides styling/presentation.
+
+JavaScript
+    -> Provides behaviour and interactivity.
+
+DOCTYPE
+    -> Tells the browser which HTML standard the document is intended to use.
+
 <html>
-<head>
-</head>
+    -> Root element of the HTML document.
 
+<head>
+    -> Contains information/metadata about the document.
+
+<meta>
+    -> Provides metadata.
 
 <body>
+    -> Contains the main webpage content.
 
-</body>
+<title>
+    -> Defines the title shown in the browser tab.
 
 
-</html>
+13. EASY WAY TO REMEMBER
+------------------------
+
+Think of a webpage like a building:
+
+    HTML       -> Structure of the building
+    CSS        -> Paint, design and decoration
+    JavaScript -> Actions and functionality
+
+Basic HTML structure:
+
+    <!DOCTYPE html>
+            |
+          <html>
+          /    \
+      <head>   <body>
+        |        |
+    Page info   Main
+               content
 
 
-<!DOCTYPE html>- This is the declartion of html and that represnts the current version of html
-
-<html> </html>- This is the root of the html document and it is divided into 2 parts
-<head> </head> - <title><?title>,<meta>,facion,
-
-what is meta: Meta tags contains metadata
-what is metadata:data about data/information about someother data,
-seo friendly
-<body> </body> -  presentation-h1,h2,...h6,p,img,audio...
+END OF HTML BASICS - PART 1
 
 
 
