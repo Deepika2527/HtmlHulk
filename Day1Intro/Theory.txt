@@ -1,0 +1,75 @@
+HTML: HyperText Mark Up Language
+
+HyperText- A text containing links that can go from One place to another place is called a HyperText
+MarkUp- < >
+<h1>
+<p>
+<img>
+
+
+--------------------------------------------------------------------------------------------
+Why we need html
+We need html to give structure for the webpage/webapplication or website-<header><footer><aside>,.....
+
+presentation - <h1>,<h2>,<p>
+
+
+------------------------------------------------------------------------------------------
+
+HTML History of html
+
+Tim Berners Lee in the year of 1991(CERN)Eureopean Organisation for Nuclear Research
+
+Versions of html:
+
+
+1.0-1991-Basic
+2.0-1995-Forms and tables
+3.2-1997-Intergating of css and js
+4.0-1995-Multimedia support
+xhtml-2000
+Html5- 2014-semanctic tags,forms(more input fileds were added),storage(local,session)
+--------------------------------------------------------------------------------------------
+
+
+BoilerPlate code
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+
+<body>
+
+</body>
+
+
+</html>
+
+
+<!DOCTYPE html>- This is the declartion of html and that represnts the current version of html
+
+<html> </html>- This is the root of the html document and it is divided into 2 parts
+<head> </head> - <title><?title>,<meta>,facion,
+
+what is meta: Meta tags contains metadata
+what is metadata:data about data/information about someother data,
+seo friendly
+<body> </body> -  presentation-h1,h2,...h6,p,img,audio...
+
+
+
+
+
+
+
+
+
+
+TakeAways
+Why html is not a programming Lnaguage
+what is qurick mode and standard mode
+why we use lang="en" in html
+What is www
+what is http
+what is https
