@@ -1,0 +1,86 @@
+Agenda
+
+1. Core Components
+    1. Tags
+    2. Elements
+    3. Attributes
+
+
+2. Tag types/Types of Tags
+
+    Texttags/HeadingTags
+    FormattingTags
+    ListTags
+    Blockquote
+    codeTag
+------------------------------------------------------------------------------------------
+1.Tag : A tag is a predefined keyword which is enclosed within the angle-brackets(<>) that defines the structure on the webpage.
+
+Syntx:
+<tagname></tagname>
+examples: 
+<h1></h1>
+<p></p>
+<input>
+<br>
+<img>
+<hr>
+
+ types of tags
+ 1. Paired tags/container tags
+ Syntax:
+ <tagname></tagname>
+ example : h1,p,title,table,form,....
+
+ 2. single tag/voidtags/enclosing tags
+ <tagname>
+ img,hr,br,meta,....
+ -----------------------------------------------------------------------------------------------------------------------
+ 2. Attributes :
+
+ Attributes provides additional information about the tags
+ these are classified again into two types
+ 1.Element specific Attributes: 
+ type(input),src,alt(img), href(a)
+ 2.Global Attributes
+   style,id,class,title
+
+---------------------------------------------------------------------------------------------------------------------
+3. Element:
+   building blocks of the html
+   openingtag(with or without attributes)+conent+closingtag = Elements
+   example:
+   <h1>Hello all</h1>
+   <p class="mycls"> my para </p>
+
+
+   These are classified into 3 types
+   1. Block
+       Occupies the entire width of the document
+       It will allow the next elemnt to be in a new line
+       h1 to h6,p,form,...
+   2. Inline
+       Occupies howmuch ever space it wants
+       If the next element is inline it will be next to that element
+
+       a,img,stong,em,.....
+   3. Inline-Block
+
+   ----------------------------------------------------------------------------------------------------------------------
+   2. Tag types/Types of Tags
+
+    Texttags/HeadingTags
+    FormattingTags
+    ListTags
+    Blockquote
+    codeTag
+
+
+
+
+    Text Tags/Heading- h1 to h6,pre,p
+
+
+
+
+

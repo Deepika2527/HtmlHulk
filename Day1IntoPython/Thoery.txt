@@ -1,0 +1,29 @@
+
+What is a computer?
+A computers will takes the input from the user, process it and we get the output.
+
+What is a programming Language?
+
+Language:its a common barrier to make a commincatio between two people..to exhnages the thouts,feeling,anything
+
+
+
+Types of programming Language:
+Low-Level Language
+High-Level language
+
+what is python
+
+benefits of python?
+
+
+
+Translaters-
+Complier -Hulk
+Interpreter- Avengers
+
+
+
+
+
+
