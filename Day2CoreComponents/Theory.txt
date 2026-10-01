@@ -40,6 +40,8 @@ examples:
 
  Attributes provides additional information about the tags
  these are classified again into two types
+ Synax:
+ <h1 style="">content</h1>
  1.Element specific Attributes: 
  type(input),src,alt(img), href(a)
  2.Global Attributes
@@ -63,8 +65,8 @@ examples:
        Occupies howmuch ever space it wants
        If the next element is inline it will be next to that element
 
-       a,img,stong,em,.....
-   3. Inline-Block
+       a,stong,em,.....
+   3. Inline-Block: img
 
    ----------------------------------------------------------------------------------------------------------------------
    2. Tag types/Types of Tags
