@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            /* border-collapse: separate;
+            border-spacing: 10px; */
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- <table border="1" style="border-collapse: collapse;" cellspacing="10" cellpadding="20" align="center"> -->
+        <table>
+            
+        <caption>My class Timetable</caption>
+       <thead>
+         <tr style="background-color: lightblue;" >
+            <th>Name</th>
+            <th>Course</th>
+            <th>Mode</th>
+            <th>Trainer</th>
+            <th colspan="2">Contact No/Alternative no</th>
+            <!-- <th>AlaternativeNo</th> -->
+             
+        </tr>
+       </thead>
+
+
+       <tbody>
+         <tr>
+            <td>Madhav</td>
+            <td>Pfs with Agenti Ai</td>
+            <td rowspan="2">Online</td>
+            <td rowspan="2">Deepika</td>
+            <td>1234567890</td>
+            <td>1234567890</td>
+        </tr>
+
+          <tr>
+            <td>Rachel</td>
+            <td>Pfs with  AI</td>
+            <!-- <td>Online</td> -->
+            <!-- <td>Deepika</td> -->
+            <td>1234567890</td>
+            <td>1234567890</td>
+        </tr>
+          <tr>
+            <td>Allen</td>
+            <td>Jfs </td>
+            <td style="background-color: lightcoral;">Hybrid</td>
+            <td>Xyz</td>
+            <td>1204567890</td>
+            <td>1204567890</td>
+        </tr>
+          <tr>
+            <td>Ram</td>
+            <td>NodeJs</td>
+            <td>Offline </td>
+            <td>Deepika</td>
+            <td>1234567890</td>
+            <td>1234567890</td>
+        </tr>
+       </tbody>
+
+       <tfoot style="background-color: lightgoldenrodyellow;">
+        <tr>
+            <td colspan="6" style="text-align: center;">AchieversIT</td>
+            <!-- <td>AchieversIT</td>
+            <td>AchieversIT</td>
+            <td>AchieversIT</td>
+            <td>AchieversIT</td>
+            <td>AchieversIT</td> -->
+        </tr>
+       </tfoot>
+
+
+    </table>
+
+    
+</body>
+</html>

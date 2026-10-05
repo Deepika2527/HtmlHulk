@@ -1,0 +1,43 @@
+Tables
+Agenda
+
+What are Tables
+Whyd do we use it, Real time examples
+Tags used in the Tables
+Attributes in Tables
+Real time examples
+
+------------------------------------------------------------------------------
+
+Tables: Table are used to organise the data in the form of rows and columns
+
+
+we use tables in resume,product comparsion,invoice,etc..
+
+
+tags used in tables
+table - This is used to craet the table 
+thead
+tbody
+tfoot
+tr - To create an horizontal row
+th - To give the heading for the columns
+td- where the actual data will be presented
+caption- To give a title for the table
+
+
+-------------------------------------------------------------------------------
+Attributes used inside the table
+
+colspan- This is used to merge the cols
+rowspan- This is used to merge the rows
+
+align- Used to define where the tables has to be placed
+cellpadding- This helps to create the space inside the cell/Creates the space around the content
+cellspacing- This helps to create the space between the ajancent cells
+border - border gies a border for the table
+
+
+-------------------------------------------------------------------------------
+impotant Point:
+cellspacing will not work with boder-collapse(collapse)

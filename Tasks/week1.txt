@@ -1,0 +1,36 @@
+1. What  are tags and define types of tagsRestaurant Menu
+
+
+2. Personal Contact Page
+Create a Personal Contact Page.
+Requirements
+1. Add a link to Google using an absolute URL.
+2. Add a link to a local file called resume.pdf using a relative path.
+3. Add an Email Me link using mailto:.
+4. Add a Call Me link using tel:.
+5. Add a link called Home using href="#".
+
+
+3. Training Institute Course Structure
+Create a Full Stack Development Course Structure using all three types of lists.
+
+
+4. Create a Restaurant Menu webpage using HTML lists.
+Requirements:
+- Create an Unordered List for Starters.
+- Create an Ordered List for Main Course.
+- Use an appropriate type for the ordered list.
+- Create a Description List (dl) for at least 3 special dishes.
+  - <dt> → Dish name
+  - <dd> → Short description of the dish
+- Use at least 5 items in the Starters and Main Course sections.
+- Use suitable headings to clearly separate the sections.
+Concepts being tested: ul, ol, dl, li, dt, dd, type.
+
+5. What are Elements and give me the difference types of elements along with examples.
+
+6. what is qurick mode and standard mode
+7. why we use lang="en" in html
+8. Difference between http vs https
+
+
