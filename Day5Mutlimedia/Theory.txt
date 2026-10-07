@@ -1,0 +1,60 @@
+Mutlimedia
+
+
+What is Mutlimedia
+Multi-existing a form in multiple ways
+Media- its a form that exits in different ways such as images,audio,video,maps,iframes
+
+------------------------------------------------------------------------------------------------------------------
+Images-
+<img src="" alt="">
+attributes used in the img tag
+
+src = the path of the images
+these paths are divided in 2 types
+Absolute path- the path that is taken from the web 
+Realtive path- the image which is downalode and kept in our local system 
+
+Project structure
+Ecommerce
+ Hml
+   Assests
+     images
+     audio
+     video
+ 
+alt = alternative the image(to know which image is broken image ,for accesiblity,seo)
+title =
+height = 
+width =
+loding
+
+types of images formats
+jpeg
+jpg
+svg
+gif
+
+-----------------------------------------------------------------------------------------------
+Audio-
+
+audio tag 
+attributes
+src
+control
+loop
+muted
+autoplay
+
+in 2 way we can use this audio tag
+
+
+types of audio formats
+mp3
+wavv
+ogg
+
+
+video
+poster
+

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muktimedia</title>
+  </head>
+  <body>
+    <h2>Images tag</h2>
+    <!-- Absolute path -->
+    <img
+      src="https://images.pexels.com/photos/39849159/pexels-photo-39849159.jpeg"
+      alt="dogimage"
+      height="300px"
+      width="300px"
+      title="myimage1"
+      loading="lazy"
+    />
+    <br />
+
+    <!-- relativepath -->
+
+    <img
+      src="./assests/images/train.jpg"
+      alt="relative path"
+      height="300px"
+      width="300px"
+    />
+    <br />
+    <img
+      src="../Day5Mutlimedia/assests/images/train.jpg"
+      alt="relative path2"
+      height="300px"
+      width="300px"
+    />
+    <br />
+    <img src="girl.jpg" alt="girl" height="300px" width="300px" />
+
+
+    <hr>
+    <h3>Audio</h3>
+    <!-- way1 -->
+<audio src="./assests/audio/audio.mp3" controls></audio>
+
+<!-- way2 -->
+ <audio controls muted>
+    <source src="./assests/audio/audio.mp3" type="audio/mp3">
+ </audio>
+
+
+ <hr>
+
+
+ <!-- video -->
+
+ <video src="./assests/video/video.mp4" controls height="300px" width="300px" poster="./girl.jpg"></video>
+
+ <video controls height="200px" width="200px">
+    <source src="./assests/video/video.mp4" type="video/mp4">
+    <track></track>
+ </video>
+
+ <br>
+ <hr>
+ <h5>Inline frame(iframe)</h5>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.25176871577!2d78.40804555!3d17.4123487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1791377625615!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+ <!-- embded a youvideo -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/G7W3_YdQK4M?si=CEYM7iD5i6G_iiu5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" ></iframe>
+
+<iframe src="https://www.youtube.com/watch?v=G7W3_YdQK4M&list=RDMMG7W3_YdQK4M&start_radio=1" frameborder="0"></iframe>
+
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mWXrM-OKBNQ?si=--ha1FTcjMIaFOXd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<hr>
+<iframe src="assests/audio/HTML_Task_1_Questions_Only.pdf" frameborder="0"></iframe>
+
+<hr>
+
+
+  </body>
+</html>
