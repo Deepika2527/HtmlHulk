@@ -1,0 +1,79 @@
+
+Agenda
+
+Form
+why do we need a Form
+what is the backend process once the form is submitted
+tags that are used in forms
+attributes that we use in forms
+
+--------------------------------------------------------------------------------------------
+Form??
+A form is collection of users info/dat from the fileds and submitting it to the server
+
+Name,email,paswd,phone,resume,select,.......
+
+Form submission process
+Validation
+authenction
+authorisation
+verifiaction
+
+get 
+post
+
+
+form tag- method, action, enctype,novolidate
+
+
+form attibute-
+action: where the form has to be sumbitted
+
+label
+input
+
+attributes for the form tag
+id
+value
+Namerewuired
+selected
+atofocus
+autocomplete
+mi
+mix
+selected 
+mutliple
+accept
+size
+pattern
+
+
+
+html4 vs html5 
+seacrh
+color
+datetime
+url,range
+paswword
+valdition (built-in)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

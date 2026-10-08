@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="./login.html" method="POST" >
+      <!-- text -->
+      <label for="nm">FullName</label>
+      <input type="text" name="fn" id="nm" value="Deepi" />
+      <br><br>
+
+      <!-- email -->
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="em"
+        id="email"
+        placeholder="Enter youe email id"
+      />
+
+      <br><br>
+
+      <!-- password -->
+      <label for="pswd">Password</label>
+      <input type="password" name="psd" id="pswd" required />
+      <br><br>
+
+      <!-- tel -->
+
+
+      <label for="tel">Phone No</label>
+      <input type="tel" name="phn" id="tel" size="10" pattern="[6-9][0-9]{9}">
+      <br><br>
+      <!-- number -->
+       <label for="age">Enter your age</label>
+       <input type="number" name="" id="age" min="18" max="70">
+
+       <br><br>
+       <!-- range -->
+        <label for="rng">select the price Range</label>
+        <input type="range" name="range" id="rng" min="100" max="1000" step="10">
+
+        
+
+       <br><br>
+       <!-- pdf -->
+
+       <label for="resume">uplaod your resume</label>
+       <input type="file" name="res" id="resume" multiple accept=".pdf">
+       <br><br>
+
+       <!-- color -->
+        <label for="clr">pick your fav clr</label>
+        <input type="color" name="colr" id="clr" disabled value="#00ff34">
+
+
+       <br><br>
+       <label for="srch">Do you want to search???</label>
+       <input type="search" name="" id="srch" placeholder="Seach for product or more................">
+
+
+
+       <br><br>
+       <input type="url" name="" id="">
+
+       <br><br>
+       <!-- radio button -->
+       <label for="dt">Book your slot</label>
+       <input type="datetime-local" name="dtf" id="dt">
+       <br><br>
+       <label>Select your Gender:</label>
+       <input type="radio" name="gender" id="fm" value="female">
+       <label for="fm">Female</label>
+       
+       <input type="radio" name="gender" id="m" value="male">
+       <label for="m">Male</label>
+
+       <input type="radio" name="gender" id="d" value="d">
+       <label for="d">Dont want to specify  </label>
+       
+       <br><br>
+
+       <!-- checkboxes -->
+        <label for="">Languages I can speak</label>
+
+        <input type="checkbox" name="lang" id="en">
+        <label for="en">English</label>
+
+         <input type="checkbox" name="lang" id="tm">
+        <label for="tm">Tamil</label>
+
+         <input type="checkbox" name="lang" id="tl">
+        <label for="tl">Telugu</label>
+       <br><br>
+
+       <!-- <summary>
+        <details>KnowMore</details>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, consequatur voluptates excepturi ab architecto assumenda velit harum quis repellat pariatur aspernatur. Atque eius maxime qui architecto ipsum quasi, at cum!</p>
+       </summary> -->
+
+
+
+       <br><br>
+       <label for="country">Select Your Country</label>
+
+       <select name="" id="country" multiple>
+        <option value="">--Country Name---</option>
+        <option value="In">India</option>
+        <option value="uk">UK</option>
+        <option value="us">USA</option>
+        <option value="ind" selected>Indonesia</option>
+       </select>
+  <br><br>
+
+
+  
+
+      <button>Submit</button>
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Resest" />
+    </form>
+  </body>
+</html>
